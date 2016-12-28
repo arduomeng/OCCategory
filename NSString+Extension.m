@@ -20,6 +20,7 @@
 - (CGSize)sizeWithFont:(UIFont *)font
 {
     return [self sizeWithFont:font maxW:MAXFLOAT];
+    
 }
 
 @end
