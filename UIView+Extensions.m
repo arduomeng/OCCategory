@@ -22,7 +22,7 @@
 }
 
 - (CGFloat)y{
-    return self.frame.origin.x;
+    return self.frame.origin.y;
 }
 
 - (void)setY:(CGFloat)y{
@@ -42,7 +42,7 @@
 }
 
 - (CGFloat)height{
-    return self.frame.size.width;
+    return self.frame.size.height;
 }
 
 - (void)setHeight:(CGFloat)height{
@@ -63,7 +63,7 @@
 }
 
 - (CGFloat)centerY{
-    return self.center.x;
+    return self.center.y;
 }
 
 - (void)setCenterY:(CGFloat)centerY{
